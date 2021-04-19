@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "Tema2.Protos";
+
+service AutumnZodiac{
+	rpc GetZodiac(RequestZodiac) returns (ResponseZodiac);
+}
+
+message RequestZodiac{
+	UserData userData = 1;
+}
+
+message ResponseZodiac{
+	Zodiac zodiacName = 1;
+}
+
+message UserData{
+	string birthday = 1;
+}
+
+message Zodiac{
+	string zodiacName = 1;
+}
