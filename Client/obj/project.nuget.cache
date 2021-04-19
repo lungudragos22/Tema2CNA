@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "Kaoq+Mg70SmryDWHvMM49FaHM7LUMyefDiuAU3q/Fu/jSsPHXVCpBMMcgw52ZSViRyVqO5joe63GxElnlv0BUg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dragos\\Desktop\\CNA\\Lungu Dragos grupa 293 Tema 2\\Client\\Tema2 Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dragos\\.nuget\\packages\\google.protobuf\\3.15.8\\google.protobuf.3.15.8.nupkg.sha512",
+    "C:\\Users\\Dragos\\.nuget\\packages\\grpc.core\\2.37.0\\grpc.core.2.37.0.nupkg.sha512",
+    "C:\\Users\\Dragos\\.nuget\\packages\\grpc.core.api\\2.37.0\\grpc.core.api.2.37.0.nupkg.sha512",
+    "C:\\Users\\Dragos\\.nuget\\packages\\grpc.net.client\\2.36.0\\grpc.net.client.2.36.0.nupkg.sha512",
+    "C:\\Users\\Dragos\\.nuget\\packages\\grpc.net.common\\2.36.0\\grpc.net.common.2.36.0.nupkg.sha512",
+    "C:\\Users\\Dragos\\.nuget\\packages\\grpc.tools\\2.37.0\\grpc.tools.2.37.0.nupkg.sha512",
+    "C:\\Users\\Dragos\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\Dragos\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Dragos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

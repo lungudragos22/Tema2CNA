@@ -1,0 +1,2 @@
+obj\Debug\net5.0\Protos/Main.cs \
+obj\Debug\net5.0\Protos/MainGrpc.cs: Protos/main.proto

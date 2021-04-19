@@ -1,0 +1,5 @@
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.csprojAssemblyReference.cache
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.AssemblyInfoInputs.cache
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.AssemblyInfo.cs
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.csproj.CoreCompileInputs.cache
