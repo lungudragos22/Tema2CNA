@@ -20,22 +20,16 @@ namespace Tema2.Services
         }
         public override Task<ResponseZodiac> GetZodiac(RequestZodiac request, ServerCallContext context)
         {
-            DateTime birthday;
+            DateTime birthday = DateTime.Parse(request.UserData.Birthday);
             ResponseZodiac responseZodiac;
-            try
-            {
-                DateTime.TryParse(request.UserData.Birthday, out birthday);
-            }
-            catch
-            {
-                responseZodiac = new ResponseZodiac() { Zodiac = new Zodiac() { ZodiacName = "Error parsing birthday"} };
-                return Task.FromResult<ResponseZodiac>(responseZodiac);
-            }
             foreach(ZodiacData zodiac in ZodiacList)
             {
                 DateTime zodiacStartDate = new DateTime(birthday.Year,zodiac.StartMonth,zodiac.StartDay);
                 DateTime zodiacEndDate = new DateTime(birthday.Year, zodiac.StartMonth, zodiac.EndDay);
-                zodiacEndDate.AddMonths(1);
+                zodiacEndDate = zodiacEndDate.AddMonths(1);
+                Console.WriteLine(zodiacStartDate);
+                Console.WriteLine(birthday);
+                Console.WriteLine(zodiacEndDate);
                 if (birthday >= zodiacStartDate && birthday <= zodiacEndDate)
                 {
                     responseZodiac = new ResponseZodiac() { Zodiac = new Zodiac() { ZodiacName = zodiac.Name } };

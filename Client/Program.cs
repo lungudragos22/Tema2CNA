@@ -16,7 +16,7 @@ namespace Tema2_Client
             DateTime dateTime;
             try
             {
-                DateTime.TryParse(birthday,out dateTime);
+                dateTime = DateTime.Parse(birthday);
                 var request = new Tema2_Client.Protos.RequestZodiac() { UserData = new UserData { Birthday = birthday } };
                 var response = await client.GetZodiacAsync(request);
                 Console.WriteLine($"Your zodiac is {response.Zodiac.ZodiacName}");

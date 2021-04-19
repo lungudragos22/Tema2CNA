@@ -1,20 +1,27 @@
-"ZodiacList": [
+[
 	{
-		"Name":"Aries",
+		"Name": "Pisces",
+		"StartDay": 20,
+		"StartMonth": 2,
+		"EndDay": 20,
+		"EndMonth": 3
+	},
+	{
+		"Name": "Aries",
 		"StartDay": 21,
 		"StartMonth": 3,
 		"EndDay": 20,
 		"EndMonth": 4
 	},
 	{
-		"Name":"Taurus",
+		"Name": "Taurus",
 		"StartDay": 21,
 		"StartMonth": 4,
 		"EndDay": 20,
 		"EndMonth": 5
 	},
 	{
-		"Name":"Gemini",
+		"Name": "Gemini",
 		"StartDay": 21,
 		"StartMonth": 5,
 		"EndDay": 21,

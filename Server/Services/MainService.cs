@@ -15,16 +15,7 @@ namespace Tema2.Services
         public override Task<ResponseZodiac> GetZodiac(RequestZodiac request, ServerCallContext context)
         {
             ResponseZodiac responseZodiac;
-            DateTime birthday;
-            try
-            {
-                DateTime.TryParse(request.UserData.Birthday, out birthday);
-            }
-            catch
-            {
-                responseZodiac = new ResponseZodiac() { Zodiac = new Zodiac() { ZodiacName = "Error parsing birthday" } };
-                return Task.FromResult<ResponseZodiac>(responseZodiac);
-            }
+            DateTime birthday = DateTime.Parse(request.UserData.Birthday);
             if (birthday.Month >= 12 || birthday.Month <= 2)
             {
                 WinterService winterService = new WinterService();

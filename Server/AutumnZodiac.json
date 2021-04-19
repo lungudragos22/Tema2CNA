@@ -1,20 +1,27 @@
-"ZodiacList": [
+[
 	{
-		"Name":"Libra",
+		"Name": "Virgo",
+		"StartDay": 24,
+		"StartMonth": 8,
+		"EndDay": 23,
+		"EndMonth": 9
+	},
+	{
+		"Name": "Libra",
 		"StartDay": 24,
 		"StartMonth": 9,
 		"EndDay": 23,
 		"EndMonth": 10
 	},
 	{
-		"Name":"Scorpio",
+		"Name": "Scorpio",
 		"StartDay": 24,
 		"StartMonth": 10,
 		"EndDay": 22,
 		"EndMonth": 11
 	},
 	{
-		"Name":"Sagittarius",
+		"Name": "Sagittarius",
 		"StartDay": 23,
 		"StartMonth": 11,
 		"EndDay": 21,

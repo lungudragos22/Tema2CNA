@@ -1,20 +1,27 @@
-"ZodiacList": [
+[
 	{
-		"Name":"Cancer",
+		"Name": "Gemini",
+		"StartDay": 21,
+		"StartMonth": 5,
+		"EndDay": 21,
+		"EndMonth": 6
+	},
+	{
+		"Name": "Cancer",
 		"StartDay": 22,
 		"StartMonth": 6,
 		"EndDay": 22,
 		"EndMonth": 7
 	},
 	{
-		"Name":"Leo",
+		"Name": "Leo",
 		"StartDay": 23,
 		"StartMonth": 7,
 		"EndDay": 23,
 		"EndMonth": 8
 	},
 	{
-		"Name":"Virgo",
+		"Name": "Virgo",
 		"StartDay": 24,
 		"StartMonth": 8,
 		"EndDay": 23,
