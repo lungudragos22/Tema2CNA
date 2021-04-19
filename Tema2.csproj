@@ -5,10 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Protos\main.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.36.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Protobuf Include="Protos\main.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\winter.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\summer.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\autumn.proto" GrpcServices="Server" />

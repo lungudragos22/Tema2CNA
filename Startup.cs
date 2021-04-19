@@ -32,7 +32,7 @@ namespace Tema2
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<WinterService>();
+                endpoints.MapGrpcService<MainService>();
 
                 endpoints.MapGet("/", async context =>
                 {
