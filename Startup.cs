@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Tema2.Services;
 
 namespace Tema2
 {
@@ -31,7 +32,7 @@ namespace Tema2
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<GreeterService>();
+                endpoints.MapGrpcService<WinterService>();
 
                 endpoints.MapGet("/", async context =>
                 {

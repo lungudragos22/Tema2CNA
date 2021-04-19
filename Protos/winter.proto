@@ -1,6 +1,8 @@
 syntax = "proto3";
 
-option csharp_namespace = "Tema2.Protos";
+option csharp_namespace = "Tema2.Protos.Winter";
+
+package winter;
 
 service WinterZodiac{
 	rpc GetZodiac(RequestZodiac) returns (ResponseZodiac);
@@ -11,7 +13,7 @@ message RequestZodiac{
 }
 
 message ResponseZodiac{
-	Zodiac zodiacName = 1;
+	Zodiac zodiac = 1;
 }
 
 message UserData{
