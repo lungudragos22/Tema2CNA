@@ -7,7 +7,7 @@
 
 using grpc = global::Grpc.Core;
 
-namespace Tema2.Protos.Main {
+namespace Tema2_Client.Protos {
   public static partial class Main
   {
     static readonly string __ServiceName = "main.Main";
@@ -42,10 +42,10 @@ namespace Tema2.Protos.Main {
       return parser.ParseFrom(context.PayloadAsNewBuffer());
     }
 
-    static readonly grpc::Marshaller<global::Tema2.Protos.Main.RequestZodiac> __Marshaller_main_RequestZodiac = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Tema2.Protos.Main.RequestZodiac.Parser));
-    static readonly grpc::Marshaller<global::Tema2.Protos.Main.ResponseZodiac> __Marshaller_main_ResponseZodiac = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Tema2.Protos.Main.ResponseZodiac.Parser));
+    static readonly grpc::Marshaller<global::Tema2_Client.Protos.RequestZodiac> __Marshaller_main_RequestZodiac = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Tema2_Client.Protos.RequestZodiac.Parser));
+    static readonly grpc::Marshaller<global::Tema2_Client.Protos.ResponseZodiac> __Marshaller_main_ResponseZodiac = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Tema2_Client.Protos.ResponseZodiac.Parser));
 
-    static readonly grpc::Method<global::Tema2.Protos.Main.RequestZodiac, global::Tema2.Protos.Main.ResponseZodiac> __Method_GetZodiac = new grpc::Method<global::Tema2.Protos.Main.RequestZodiac, global::Tema2.Protos.Main.ResponseZodiac>(
+    static readonly grpc::Method<global::Tema2_Client.Protos.RequestZodiac, global::Tema2_Client.Protos.ResponseZodiac> __Method_GetZodiac = new grpc::Method<global::Tema2_Client.Protos.RequestZodiac, global::Tema2_Client.Protos.ResponseZodiac>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetZodiac",
@@ -55,7 +55,7 @@ namespace Tema2.Protos.Main {
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
-      get { return global::Tema2.Protos.Main.MainReflection.Descriptor.Services[0]; }
+      get { return global::Tema2_Client.Protos.MainReflection.Descriptor.Services[0]; }
     }
 
     /// <summary>Client for Main</summary>
@@ -81,19 +81,19 @@ namespace Tema2.Protos.Main {
       {
       }
 
-      public virtual global::Tema2.Protos.Main.ResponseZodiac GetZodiac(global::Tema2.Protos.Main.RequestZodiac request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Tema2_Client.Protos.ResponseZodiac GetZodiac(global::Tema2_Client.Protos.RequestZodiac request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetZodiac(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::Tema2.Protos.Main.ResponseZodiac GetZodiac(global::Tema2.Protos.Main.RequestZodiac request, grpc::CallOptions options)
+      public virtual global::Tema2_Client.Protos.ResponseZodiac GetZodiac(global::Tema2_Client.Protos.RequestZodiac request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetZodiac, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::Tema2.Protos.Main.ResponseZodiac> GetZodiacAsync(global::Tema2.Protos.Main.RequestZodiac request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Tema2_Client.Protos.ResponseZodiac> GetZodiacAsync(global::Tema2_Client.Protos.RequestZodiac request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetZodiacAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::Tema2.Protos.Main.ResponseZodiac> GetZodiacAsync(global::Tema2.Protos.Main.RequestZodiac request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Tema2_Client.Protos.ResponseZodiac> GetZodiacAsync(global::Tema2_Client.Protos.RequestZodiac request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetZodiac, null, options, request);
       }

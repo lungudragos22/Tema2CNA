@@ -3,3 +3,26 @@ C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.
 C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.AssemblyInfoInputs.cache
 C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.AssemblyInfo.cs
 C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.csproj.CoreCompileInputs.cache
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Tema2 Client.exe
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Tema2 Client.deps.json
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Tema2 Client.runtimeconfig.json
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Tema2 Client.runtimeconfig.dev.json
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Tema2 Client.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\ref\Tema2 Client.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Tema2 Client.pdb
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Grpc.Core.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Grpc.Core.Api.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Grpc.Net.Client.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Grpc.Net.Common.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\runtimes\linux-x64\native\libgrpc_csharp_ext.x64.so
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\bin\Debug\net5.0\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.csproj.CopyComplete
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\ref\Tema2 Client.dll
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.pdb
+C:\Users\Dragos\Desktop\CNA\Lungu Dragos grupa 293 Tema 2\Client\obj\Debug\net5.0\Tema2 Client.genruntimeconfig.cache

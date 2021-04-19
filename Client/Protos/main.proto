@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "Tema2.Protos.Main";
+option csharp_namespace = "Tema2_Client.Protos";
 
 package main;
 

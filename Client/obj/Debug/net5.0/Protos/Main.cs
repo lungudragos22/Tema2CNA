@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tema2.Protos.Main {
+namespace Tema2_Client.Protos {
 
   /// <summary>Holder for reflection information generated from Protos/main.proto</summary>
   public static partial class MainReflection {
@@ -29,15 +29,15 @@ namespace Tema2.Protos.Main {
             "ZGlhYxIcCgZ6b2RpYWMYASABKAsyDC5tYWluLlpvZGlhYyIcCghVc2VyRGF0",
             "YRIQCghiaXJ0aGRheRgBIAEoCSIcCgZab2RpYWMSEgoKem9kaWFjTmFtZRgB",
             "IAEoCTI+CgRNYWluEjYKCUdldFpvZGlhYxITLm1haW4uUmVxdWVzdFpvZGlh",
-            "YxoULm1haW4uUmVzcG9uc2Vab2RpYWNCFKoCEVRlbWEyLlByb3Rvcy5NYWlu",
-            "YgZwcm90bzM="));
+            "YxoULm1haW4uUmVzcG9uc2Vab2RpYWNCFqoCE1RlbWEyX0NsaWVudC5Qcm90",
+            "b3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tema2.Protos.Main.RequestZodiac), global::Tema2.Protos.Main.RequestZodiac.Parser, new[]{ "UserData" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tema2.Protos.Main.ResponseZodiac), global::Tema2.Protos.Main.ResponseZodiac.Parser, new[]{ "Zodiac" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tema2.Protos.Main.UserData), global::Tema2.Protos.Main.UserData.Parser, new[]{ "Birthday" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tema2.Protos.Main.Zodiac), global::Tema2.Protos.Main.Zodiac.Parser, new[]{ "ZodiacName" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tema2_Client.Protos.RequestZodiac), global::Tema2_Client.Protos.RequestZodiac.Parser, new[]{ "UserData" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tema2_Client.Protos.ResponseZodiac), global::Tema2_Client.Protos.ResponseZodiac.Parser, new[]{ "Zodiac" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tema2_Client.Protos.UserData), global::Tema2_Client.Protos.UserData.Parser, new[]{ "Birthday" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tema2_Client.Protos.Zodiac), global::Tema2_Client.Protos.Zodiac.Parser, new[]{ "ZodiacName" }, null, null, null, null)
           }));
     }
     #endregion
@@ -56,7 +56,7 @@ namespace Tema2.Protos.Main {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tema2.Protos.Main.MainReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Tema2_Client.Protos.MainReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -84,9 +84,9 @@ namespace Tema2.Protos.Main {
 
     /// <summary>Field number for the "userData" field.</summary>
     public const int UserDataFieldNumber = 1;
-    private global::Tema2.Protos.Main.UserData userData_;
+    private global::Tema2_Client.Protos.UserData userData_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tema2.Protos.Main.UserData UserData {
+    public global::Tema2_Client.Protos.UserData UserData {
       get { return userData_; }
       set {
         userData_ = value;
@@ -172,7 +172,7 @@ namespace Tema2.Protos.Main {
       }
       if (other.userData_ != null) {
         if (userData_ == null) {
-          UserData = new global::Tema2.Protos.Main.UserData();
+          UserData = new global::Tema2_Client.Protos.UserData();
         }
         UserData.MergeFrom(other.UserData);
       }
@@ -192,7 +192,7 @@ namespace Tema2.Protos.Main {
             break;
           case 10: {
             if (userData_ == null) {
-              UserData = new global::Tema2.Protos.Main.UserData();
+              UserData = new global::Tema2_Client.Protos.UserData();
             }
             input.ReadMessage(UserData);
             break;
@@ -213,7 +213,7 @@ namespace Tema2.Protos.Main {
             break;
           case 10: {
             if (userData_ == null) {
-              UserData = new global::Tema2.Protos.Main.UserData();
+              UserData = new global::Tema2_Client.Protos.UserData();
             }
             input.ReadMessage(UserData);
             break;
@@ -237,7 +237,7 @@ namespace Tema2.Protos.Main {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tema2.Protos.Main.MainReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Tema2_Client.Protos.MainReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -265,9 +265,9 @@ namespace Tema2.Protos.Main {
 
     /// <summary>Field number for the "zodiac" field.</summary>
     public const int ZodiacFieldNumber = 1;
-    private global::Tema2.Protos.Main.Zodiac zodiac_;
+    private global::Tema2_Client.Protos.Zodiac zodiac_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tema2.Protos.Main.Zodiac Zodiac {
+    public global::Tema2_Client.Protos.Zodiac Zodiac {
       get { return zodiac_; }
       set {
         zodiac_ = value;
@@ -353,7 +353,7 @@ namespace Tema2.Protos.Main {
       }
       if (other.zodiac_ != null) {
         if (zodiac_ == null) {
-          Zodiac = new global::Tema2.Protos.Main.Zodiac();
+          Zodiac = new global::Tema2_Client.Protos.Zodiac();
         }
         Zodiac.MergeFrom(other.Zodiac);
       }
@@ -373,7 +373,7 @@ namespace Tema2.Protos.Main {
             break;
           case 10: {
             if (zodiac_ == null) {
-              Zodiac = new global::Tema2.Protos.Main.Zodiac();
+              Zodiac = new global::Tema2_Client.Protos.Zodiac();
             }
             input.ReadMessage(Zodiac);
             break;
@@ -394,7 +394,7 @@ namespace Tema2.Protos.Main {
             break;
           case 10: {
             if (zodiac_ == null) {
-              Zodiac = new global::Tema2.Protos.Main.Zodiac();
+              Zodiac = new global::Tema2_Client.Protos.Zodiac();
             }
             input.ReadMessage(Zodiac);
             break;
@@ -418,7 +418,7 @@ namespace Tema2.Protos.Main {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tema2.Protos.Main.MainReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Tema2_Client.Protos.MainReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -590,7 +590,7 @@ namespace Tema2.Protos.Main {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tema2.Protos.Main.MainReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Tema2_Client.Protos.MainReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
