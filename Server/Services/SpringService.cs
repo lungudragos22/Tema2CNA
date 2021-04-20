@@ -24,9 +24,16 @@ namespace Tema2.Services
             ResponseZodiac responseZodiac;
             foreach(ZodiacData zodiac in ZodiacList)
             {
-                DateTime zodiacStartDate = new DateTime(birthday.Year,zodiac.StartMonth,zodiac.StartDay);
-                DateTime zodiacEndDate = new DateTime(birthday.Year, zodiac.StartMonth, zodiac.EndDay);
-                zodiacEndDate = zodiacEndDate.AddMonths(1);
+                DateTime zodiacStartDate;
+                if (zodiac.StartMonth == 12 && zodiac.EndMonth == 1)
+                {
+                    zodiacStartDate = new DateTime(birthday.Year - 1, zodiac.StartMonth, zodiac.StartDay);
+                }
+                else
+                {
+                    zodiacStartDate = new DateTime(birthday.Year, zodiac.StartMonth, zodiac.StartDay);
+                }
+                DateTime zodiacEndDate = new DateTime(birthday.Year, zodiac.EndMonth, zodiac.EndDay);
                 if (birthday >= zodiacStartDate && birthday <= zodiacEndDate)
                 {
                     responseZodiac = new ResponseZodiac() { Zodiac = new Zodiac() { ZodiacName = zodiac.Name } };
