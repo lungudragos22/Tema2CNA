@@ -11,19 +11,21 @@ namespace Tema2_Client
         {
             GrpcChannel channel = GrpcChannel.ForAddress("https://localhost:5001");
             var client = new Tema2_Client.Protos.Main.MainClient(channel);
-            Console.WriteLine("Birthday:");
-            string birthday = Console.ReadLine();
-            DateTime dateTime;
-            try
+            while (true)
             {
-                dateTime = DateTime.Parse(birthday);
-                var request = new Tema2_Client.Protos.RequestZodiac() { UserData = new UserData { Birthday = birthday } };
-                var response = await client.GetZodiacAsync(request);
-                Console.WriteLine($"Your zodiac is {response.Zodiac.ZodiacName}");
-            }
-            catch
-            {
-                Console.WriteLine("Incorect birthday format");
+                Console.WriteLine("Birthday:");
+                string birthday = Console.ReadLine();
+                try
+                {
+                    DateTime.Parse(birthday);
+                    var request = new Tema2_Client.Protos.RequestZodiac() { UserData = new UserData { Birthday = birthday } };
+                    var response = await client.GetZodiacAsync(request);
+                    Console.WriteLine($"Your zodiac is {response.Zodiac.ZodiacName}");
+                }
+                catch
+                {
+                    Console.WriteLine("Incorect birthday format");
+                }
             }
         }
     }
